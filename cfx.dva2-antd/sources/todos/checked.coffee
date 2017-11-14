@@ -65,7 +65,7 @@ export default ->
       className: [
         'weui-cell'
         'weui-cell_swiped'
-      ].join ' '  
+      ].join ' '
     ,
 
       c_div
@@ -73,7 +73,7 @@ export default ->
         style:
           transform: 'translateX(-68px)'
       ,
-      
+
         c_div
           className: 'weui-cell'
         ,
@@ -84,16 +84,16 @@ export default ->
           c_div
             className: 'weui-cell__ft'
           , '说明文字'
-            
+
       c_div
         className: 'weui-cell__ft'
-      ,  
+      ,
 
         c_a
           className:[
             'weui-swiped-btn'
             'weui-swiped-btn_warn'
-          ].join ' '  
+          ].join ' '
         , '删除'
 
     c_label
@@ -111,7 +111,7 @@ export default ->
           className: 'weui-check'
           type: "checkbox"
           name: "checkbox1"
-        
+
         c_i
           className: [
             'weui-icon-checked'
@@ -123,4 +123,4 @@ export default ->
       ,
 
         c_p {}
-        , '正常'      
+        , '正常'

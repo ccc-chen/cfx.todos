@@ -2,22 +2,20 @@ import { prefixDom } from 'cfx.dom'
 
 CFX = prefixDom {
   default: {
-    'a'
-    'li'
     'label'
     'p'
     'div'
+    'li'
   }
 }
 
 export default ->
 
   {
-    c_a
-    c_li
     c_label
     c_p
     c_div
+    c_li
   } = CFX
 
   c_li {}
@@ -55,6 +53,7 @@ export default ->
         'weui-cell'
         'weui-check__label'
       ].join ' '
+    ,
 
       c_div
         className: 'weui-cell__bd'

@@ -45,27 +45,27 @@ export default ->
           'page__bd'
           'weui-cells_checkbox'
         ].join ' '
-
       ,
+
         c_div
           className: [
             'weui-cells'
             'weuiweui'
           ].join ' '
-
         ,
+
           c_div
             className: [
               'weui-cell'
               'weui-cell_select'
               'weui-cell_select-before'
             ].join ' '
-
           ,
+
             c_div
               className: 'weui-cell__bd'
-
             ,
+
               c_input
                 className: 'weui-input'
                 type: "text"
@@ -76,13 +76,13 @@ export default ->
                 'weui-cell__hd'
                 'weui-cell-down'
               ].join ' '
-
             ,
+
               c_select
                 className: 'weui-select'
 
         c_ul {}
-
         ,
+
           list {}
           checked {}

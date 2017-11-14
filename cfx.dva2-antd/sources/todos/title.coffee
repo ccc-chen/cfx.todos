@@ -17,6 +17,7 @@ export default ->
   c_div
     className: 'page__hd'
   ,
+
     c_h1
       className: 'page__title'
       style:
