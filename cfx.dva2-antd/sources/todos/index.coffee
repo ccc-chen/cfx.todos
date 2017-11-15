@@ -1,4 +1,3 @@
-import { storiesOf } from '@storybook/react'
 import { prefixDom } from 'cfx.dom'
 import '../../public/assets/weui.css'
 import '../../public/assets/example.css'
@@ -18,71 +17,65 @@ CFX = prefixDom {
 
 export default ->
 
-  storiesOf 'Todos', module
+  {
+    c_div
+    c_ul
+    c_input
+    c_select
+  } = CFX
 
-  .add 'Index'
-
-  , =>
-
-    {
-      c_div
-      c_ul
-      c_input
-      c_select
-    } = CFX
+  c_div
+    className: [
+      'page'
+      'js_show'
+      'home'
+    ].join ' '
+  ,
+    title {}
 
     c_div
       className: [
-        'page'
-        'js_show'
-        'home'
+        'page__bd'
+        'weui-cells_checkbox'
       ].join ' '
     ,
-      title {}
 
       c_div
         className: [
-          'page__bd'
-          'weui-cells_checkbox'
+          'weui-cells'
+          'weuiweui'
         ].join ' '
       ,
 
         c_div
           className: [
-            'weui-cells'
-            'weuiweui'
+            'weui-cell'
+            'weui-cell_select'
+            'weui-cell_select-before'
           ].join ' '
         ,
 
           c_div
+            className: 'weui-cell__bd'
+          ,
+
+            c_input
+              className: 'weui-input'
+              type: "text"
+              placeholder: "What needs to be done?"
+
+          c_div
             className: [
-              'weui-cell'
-              'weui-cell_select'
-              'weui-cell_select-before'
+              'weui-cell__hd'
+              'weui-cell-down'
             ].join ' '
           ,
 
-            c_div
-              className: 'weui-cell__bd'
-            ,
+            c_select
+              className: 'weui-select'
 
-              c_input
-                className: 'weui-input'
-                type: "text"
-                placeholder: "What needs to be done?"
+      c_ul {}
+      ,
 
-            c_div
-              className: [
-                'weui-cell__hd'
-                'weui-cell-down'
-              ].join ' '
-            ,
-
-              c_select
-                className: 'weui-select'
-
-        c_ul {}
-        ,
-
-          list {}
-          checked {}
+        list {}
+        checked {}
