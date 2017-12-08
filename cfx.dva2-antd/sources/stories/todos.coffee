@@ -1,14 +1,10 @@
 import { storiesOf } from '@storybook/react'
 import { prefixDom } from 'cfx.dom'
-import '../../public/assets/weui.css'
-import '../../public/assets/example.css'
+import 'antd-mobile/dist/antd-mobile.css'
 
-import Todos from '../todos/index'
+import Todos from '../todos'
 
 CFX = prefixDom {
-  default: {
-    'div'
-  }
   Todos
 }
 
@@ -21,7 +17,6 @@ export default ->
   , =>
 
     {
-      c_div
       c_Todos
     } = CFX
 
