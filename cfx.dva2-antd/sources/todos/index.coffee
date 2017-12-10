@@ -2,7 +2,6 @@ import { prefixDom } from 'cfx.dom'
 import { SwipeAction, NavBar, Popover, List, Checkbox, InputItem, Icon} from 'antd-mobile'
 import 'antd-mobile/dist/antd-mobile.css'
 
-
 {
   Item
 } = List
@@ -10,6 +9,7 @@ import 'antd-mobile/dist/antd-mobile.css'
 {
   CheckboxItem
 } = Checkbox
+
 CFX = prefixDom {
   'div'
   Popover
@@ -76,20 +76,18 @@ export default ->
       renderHeader: ' '
       className: 'my-list'
     ,
+
       c_CheckboxItem
         value: '0'
         label: '完成'
         defaultChecked: true
       , '完成'
-
       c_CheckboxItem
         value: '1'
         label: '完成'
         disabled: true
         defaultChecked: true
       , '完成'
-
-
       c_SwipeAction
         autoClose: true
         style:
@@ -106,7 +104,7 @@ export default ->
             color: 'white'        
         ]
         c_Item
-          extra: 'More'
+          # extra: 'More'
           arrow: 'horizontal'
         , ' '  
  
