@@ -17,10 +17,8 @@
   },
   "dependencies": {
     "cfx.dom": "^0.0.2",
-    "normalize.css": "^7.0.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "reset-css": "^2.2.1",
     "rollup-plugin-image": "1.0.2",
     "rollup-plugin-re": "1.0.6"
   }
