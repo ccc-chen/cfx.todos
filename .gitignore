@@ -22,7 +22,7 @@ yarn*log
 .yarn*
 
 src
-public
+
 .storybook
 
 package-lock.json
