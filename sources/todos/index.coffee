@@ -1,13 +1,13 @@
 import { prefixDom } from 'cfx.dom'
 import Title from './title'
 import Input from './input'
-import Checkbox from './checkbox'
+import List from './list'
 
 CFX = prefixDom {
   'div'
   Title
   Input
-  Checkbox
+  List
 }
 
 export default ->
@@ -16,20 +16,11 @@ export default ->
     c_div
     c_Title
     c_Input
-    c_Checkbox
+    c_List
   } = CFX
 
   c_div {}
   ,
     c_Title {}
     c_Input {}
-    c_Checkbox {}
-
-
-        
-          
-           
-
-
-
-   
+    c_List {}

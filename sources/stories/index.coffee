@@ -5,6 +5,12 @@ import Welcome from './Welcome'
 
 import Todos from './todos'
 
+import Input from './input'
+
+import List from './list'
+
 Welcome()
 Todos()
+Input()
+List()
 

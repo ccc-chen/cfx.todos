@@ -1,4 +1,7 @@
 {
+  "name": "cfx.todos",
+  "version": "0.0.0",
+  "main": "./dist/bundle.js",
   "scripts": {
     "start": "start-storybook -p 8000 -c .storybook"
   },
