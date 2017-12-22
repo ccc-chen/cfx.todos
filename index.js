@@ -1,5 +1,5 @@
 export { 
   Title,
   Input,
-  Checkbox
+  List
 } from './sources/index.coffee';

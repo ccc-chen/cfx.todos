@@ -2,7 +2,7 @@ import { storiesOf } from '@storybook/react'
 import { prefixDom } from 'cfx.dom'
 import 'antd-mobile/dist/antd-mobile.css'
 
-import Input from '../todos/input'
+import Input from '../components/todos/input'
 
 CFX = prefixDom {
   Input

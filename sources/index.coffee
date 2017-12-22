@@ -1,9 +1,9 @@
-import Title from './todos/title'
-import Input from './todos/input'
-import Checkbox from './todos/checkbox'
+import Title from './components/todos/title'
+import Input from './components/todos/input'
+import List from './components/todos/list'
 
 export {
   Title
   Input
-  Checkbox
+  CheckList
 }
